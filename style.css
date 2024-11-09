@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cart-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid bisque;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    width: 50px;
+}
+
+.cart-summary {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid wheat;
+    text-align: right;
+}
+
+button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}

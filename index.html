@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cart-container">
+        <h1>Shopping Cart</h1>
+        <table id="cartTable">
+            <thead>
+                <tr>
+                    <th><img src="img1.jpg" alt="green bag"></img></th>
+                    <th>Green bag</th>
+                    <th> $80.00</th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th><img src="img3.jpg" alt="red purse"></th>
+                    <th>Gucci bag</th>
+                    <th> $50.00</th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th><img src="img4.jpg" alt="brown bag "></th>
+                    <th>Six's bag</th>
+                    <th>$70.00</th>
+                    <th>1</th>                
+                </tr>
+                <tr>
+                    <th><img src="img5.jpg" alt="white bag "></th>
+                    <th>Zizi bag</th>
+                    <th>$70.00</th>
+                    <th>1</th>
+                </tr>
+            </thead>
+            <tbody id="cartItems"></tbody>
+        </table>
+
+        <div class="cart-summary">
+            <h2>Cart Summary</h2>
+            <p>Subtotal: $<span id="totalPrice">0.00</span></p>
+            <button onclick="checkout()">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
